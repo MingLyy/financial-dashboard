@@ -1,0 +1,16 @@
+[project]
+name = "financial-dashboard"
+version = "0.1.0"
+description = "Personal financial dashboard built in Python with CustomTkinter and SQLite"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "customtkinter>=6.0.0",
+]
+
+[project.scripts]
+financial-dashboard = "financial_dashboard:main"
+
+[build-system]
+requires = ["uv_build>=0.12.3,<0.13.0"]
+build-backend = "uv_build"
